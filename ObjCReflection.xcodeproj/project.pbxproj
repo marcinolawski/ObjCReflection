@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3A6F7EB18984B0800042E00 /* MOClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6F7E418984B0800042E00 /* MOClass.m */; };
+		D3A6F7EC18984B0800042E00 /* MOReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6F7E618984B0800042E00 /* MOReflection.m */; };
+		D3A6F7ED18984B0800042E00 /* MOType.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6F7E818984B0800042E00 /* MOType.m */; };
+		D3A6F7EE18984B0800042E00 /* MOVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6F7EA18984B0800042E00 /* MOVariable.m */; };
 		D3E241DC1896DD6300100FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E241DB1896DD6300100FA3 /* Foundation.framework */; };
 		D3E241DF1896DD6300100FA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E241DE1896DD6300100FA3 /* main.m */; };
 		D3E241E31896DD6300100FA3 /* ObjCReflection.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3E241E21896DD6300100FA3 /* ObjCReflection.1 */; };
@@ -26,6 +30,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D3A6F7E318984B0800042E00 /* MOClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOClass.h; sourceTree = "<group>"; };
+		D3A6F7E418984B0800042E00 /* MOClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOClass.m; sourceTree = "<group>"; };
+		D3A6F7E518984B0800042E00 /* MOReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOReflection.h; sourceTree = "<group>"; };
+		D3A6F7E618984B0800042E00 /* MOReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOReflection.m; sourceTree = "<group>"; };
+		D3A6F7E718984B0800042E00 /* MOType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOType.h; sourceTree = "<group>"; };
+		D3A6F7E818984B0800042E00 /* MOType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOType.m; sourceTree = "<group>"; };
+		D3A6F7E918984B0800042E00 /* MOVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVariable.h; sourceTree = "<group>"; };
+		D3A6F7EA18984B0800042E00 /* MOVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVariable.m; sourceTree = "<group>"; };
 		D3E241D81896DD6300100FA3 /* ObjCReflection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCReflection; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E241DB1896DD6300100FA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3E241DE1896DD6300100FA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3A6F7E218984AF600042E00 /* MOReflection */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6F7E318984B0800042E00 /* MOClass.h */,
+				D3A6F7E418984B0800042E00 /* MOClass.m */,
+				D3A6F7E518984B0800042E00 /* MOReflection.h */,
+				D3A6F7E618984B0800042E00 /* MOReflection.m */,
+				D3A6F7E718984B0800042E00 /* MOType.h */,
+				D3A6F7E818984B0800042E00 /* MOType.m */,
+				D3A6F7E918984B0800042E00 /* MOVariable.h */,
+				D3A6F7EA18984B0800042E00 /* MOVariable.m */,
+			);
+			name = MOReflection;
+			sourceTree = "<group>";
+		};
 		D3E241CF1896DD6300100FA3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +100,7 @@
 		D3E241DD1896DD6300100FA3 /* ObjCReflection */ = {
 			isa = PBXGroup;
 			children = (
+				D3A6F7E218984AF600042E00 /* MOReflection */,
 				D3E241DE1896DD6300100FA3 /* main.m */,
 				D3E241E21896DD6300100FA3 /* ObjCReflection.1 */,
 				D3E241E01896DD6300100FA3 /* Supporting Files */,
@@ -140,6 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E241DF1896DD6300100FA3 /* main.m in Sources */,
+				D3A6F7EB18984B0800042E00 /* MOClass.m in Sources */,
+				D3A6F7EC18984B0800042E00 /* MOReflection.m in Sources */,
+				D3A6F7ED18984B0800042E00 /* MOType.m in Sources */,
+				D3A6F7EE18984B0800042E00 /* MOVariable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +274,7 @@
 				D3E241E81896DD6300100FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
